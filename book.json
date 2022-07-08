@@ -1,0 +1,31 @@
+{
+  "title": "Nginx",
+  "author": "作者",
+  "language": "zh-hans",
+  "links": {
+    "sidebar": {
+      "Home": "http://192.168.3.21:9980/lhy/GitBook/tree/master"
+    }
+  },
+  "plugins": [
+    "-sharing",
+    "-highlight",
+    "-livereload",
+    "-lunr", 
+    "-search", 
+    "prism",
+    "code",
+    "expandable-chapters",
+    "search-pro",
+    "splitter"
+  ],
+  "pluginsConfig": {
+ 
+    "prism": {
+      "css": [
+        "prismjs/themes/prism-solarizedlight.css"
+      ]
+    }
+    
+  }
+}
